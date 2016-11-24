@@ -31,14 +31,24 @@ def Descending_Order(num):
 
 def diamond(n):
     # Make some diamonds!
-    top = 'top\n'
-    bot = 'bot\n'
+    if (n%2 > 0) and n>=1:
+        top = ''
+        bot = ''
 
-    for i in range(n):
-        top += ('*' * (i+1)) + '\n'
-    return top+bot
+        for i in range(int((n+1)/2)-1):
+            top += ' ' * int((n - (i*2+1))/2) + '*' * (i*2+1) + '\n'
+            bot += ' ' * int((n-(n-2-2*i))/2) + '*' * (n-2-2*i) + '\n'
+
+        mid = '*' * n + '\n'
+
+        return top+mid+bot
+    else:
+        return None
 
 #print(Descending_Order(0))
 #print(Descending_Order(15))
 #print(Descending_Order(123456789))
 print(diamond(5))
+print(diamond(0))
+print(diamond(-1))
+print(diamond(2))
