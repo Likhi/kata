@@ -1,5 +1,11 @@
 '''
+Source:
 https://www.codewars.com/kata/counting-change-combinations/train/python
+
+Hint:
+https://andrew.neitsch.ca/publications/m496pres1.nb.pdf
+http://algorithms.tutorialhorizon.com/dynamic-programming-coin-change-problem/
+
 Write a function that counts how many different ways you can make change for an
 amount of money, given an array of coin denominations. For example, there are 3
 ways to give change for 4 if you have coins with denomination 1 and 2:

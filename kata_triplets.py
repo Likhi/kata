@@ -1,5 +1,13 @@
 '''
+Source:
 https://www.codewars.com/kata/recover-a-secret-string-from-random-triplets/train/python
+
+Hint:
+This is the classic game where you arrange things according to rules like:
+Rick is taller than Sandy
+Sandy is taller than Derek but shorter than Adam
+Adam is taller than Michael and shorter than Rick.
+
 There is a secret string which is unknown to you. Given a collection of random
 triplets from the string, recover the original string.
 

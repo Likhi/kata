@@ -1,5 +1,10 @@
 '''
+Source:
 https://www.codewars.com/kata/nim/train/python
+
+Hint:
+https://en.wikipedia.org/wiki/Nim#Mathematical_theory
+
 This kata explores writing an AI for a two player, turn based game called NIM.
 
 The Board
