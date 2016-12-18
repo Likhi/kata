@@ -49,16 +49,16 @@ def recoverSecret(triplets):
         if secret.index(first) > secret.index(second):
             secret.insert(secret.index(second),secret.pop(secret.index(first)))
 
-
-#        print(triplet)
-#        print(secret[0:10])
-#        time.sleep(.5)
-
-
     return ''.join(secret)
 
 
 secret = "whatisup"
+
+t = [
+    ['c','d','e'],
+    ['a','b','c']
+]
+
 triplets = [
   ['t','u','p'],
   ['w','h','i'],
@@ -548,3 +548,4 @@ triplets5 = [
 
 print(recoverSecret(triplets))
 print(recoverSecret(triplets5))
+print(recoverSecret(t))
